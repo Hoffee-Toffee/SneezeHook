@@ -1,2 +1,2 @@
-# sneezehook
+# SneezeHook
 SneezeHook Package

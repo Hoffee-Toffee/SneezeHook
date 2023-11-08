@@ -1,0 +1,33 @@
+{
+  "name": "sneezehook",
+  "type": "commonjs",
+  "version": "1.0.0",
+  "description": "SneezeHook Package",
+  "main": "index.js",
+  "scripts": {
+    "build": "rimraf ./build && tsc",
+    "start:dev": "npx nodemon",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Hoffee-Toffee (Tristan Bulmer)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hoffee-Toffee/SneezeHook.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Hoffee-Toffee/SneezeHook/issues"
+  },
+  "homepage": "https://github.com/Hoffee-Toffee/SneezeHook#readme",
+  "dependencies": {
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "@types/request": "^2.48.12",
+    "nodemon": "^3.0.1",
+    "rimraf": "^5.0.5",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  }
+}
