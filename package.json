@@ -1,13 +1,11 @@
 {
   "name": "sneezehook",
   "type": "commonjs",
-  "version": "1.0.0",
-  "description": "SneezeHook Package",
+  "version": "1.0.1",
+  "description": "SneezeHook",
   "main": "index.js",
   "scripts": {
-    "build": "rimraf ./build && tsc",
-    "start:dev": "npx nodemon",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "npx tsc"
   },
   "keywords": [],
   "author": "Hoffee-Toffee (Tristan Bulmer)",
