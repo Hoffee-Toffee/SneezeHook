@@ -1,7 +1,7 @@
 {
   "name": "sneezehook",
   "type": "commonjs",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "SneezeHook",
   "main": "index.js",
   "scripts": {

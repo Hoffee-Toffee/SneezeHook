@@ -6,7 +6,6 @@
  * @param {boolean} sendInitial Whether it should send the initial data to the hook url, or if it should be for updates only (default of false)
  * @returns {object} Returns the initial data or any error message recieved as a response
  */
-
 export default async function into(
   webhookUrl: string,
   expires: number = 600000,
@@ -33,7 +32,9 @@ export default async function into(
     }),
   }
 
-  let res = await fetch(url, options).catch((err) => console.error(err))
+  let res = (await fetch(url, options).catch((err) =>
+    console.error(err)
+  )) as any
 
   let data = await res.json()
 
